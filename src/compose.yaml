@@ -1,0 +1,7 @@
+﻿services:
+  zedeshop-microservices:
+    image: zedeshop-microservices
+    build:
+      context: .
+      dockerfile: Dockerfile
+
